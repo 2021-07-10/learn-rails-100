@@ -23,7 +23,7 @@ bundle config mirror.https://rubygems.org https://gems.ruby-china.com
 
 ```bash
 gem install rails -v 5.2.7 -N -V
-rails new snake_api -B -T -d mysql
+rails new snake_api -T -d mysql
 ```
 
 
@@ -33,7 +33,7 @@ rails new snake_api -B -T -d mysql
 
 > `snake-api` vs `snake_api`
 
-* [`5.2.6+`](https://github.com/rails/rails/blob/0b3a63fe07507fca5b2cab6409e85789a46ed624/railties/lib/rails/generators/app_name.rb#L9) `tr('\\', "").tr("-. ", "_")`
+* [`5.2.6+`](https://github.com/rails/rails/blob/0b3a63fe07507fca5b2cab6409e85789a46ed624/railties/lib/rails/generators/app_name.rb#L9) `.tr('\\', "").tr("-. ", "_")`
 * [`5.2.6`](https://github.com/rails/rails/blob/v5.2.6/railties/lib/rails/generators/rails/app/app_generator.rb#L497) `.tr('\\', "").tr(". ", "_")`
 
 **`version`**
