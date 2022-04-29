@@ -1,0 +1,12 @@
+---
+- name: guxiaobai.rails
+  src: https://github.com/guxiaobai/ansible-role-rails.git
+  version: main
+
+- name: guxiaobai.brightbox-ruby
+  src: https://github.com/guxiaobai/ansible-role-brightbox-ruby.git
+  version: main
+
+- name: guxiaobai.mysql
+  src: https://github.com/guxiaobai/ansible-role-mysql.git
+  version: main

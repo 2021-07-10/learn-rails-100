@@ -23,8 +23,27 @@ bundle config mirror.https://rubygems.org https://gems.ruby-china.com
 
 ```bash
 gem install rails -v 5.2.7 -N -V
-rails new snake_api -T -d mysql
+rails new snake_api -T -d mysql --api
 ```
+
+**5.2.6**
+
+```
+bundle exec spring binstub --all
+```
+
+**6.1.4**
+
+```
+bundle binstubs bundler
+```
+
+**7.0.0**
+
+```
+bundle binstubs bundler
+```
+
 
 
 ## Rails Application Templates

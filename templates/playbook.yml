@@ -1,0 +1,28 @@
+---
+- hosts: all
+  vars:
+    username: snake_api
+
+  pre_tasks:
+  - name: Update apt cache if needed.
+    apt: update_cache=yes cache_valid_time=3600
+
+
+  roles:
+  - role: guxiaobai.rails
+    rails_user: "{{ username }}"
+    rails_user_key: https://github.com/guxiaobai.keys
+    
+  - role: guxiaobai.brightbox-ruby
+    brightbox_ruby_version: 2.7
+    brightbox_ruby_gems_deps:
+    - libmysqlclient-dev
+
+  - role: guxiaobai.mysql
+    mysql_user_name: "{{ username }}"
+    mysql_user_password: 'example'
+    mysql_databases: 
+    - "{{ username }}_production"
+
+  
+
