@@ -61,6 +61,10 @@ bundle binstubs bundler
 * [`Rails.gem_version`](https://github.com/rails/rails/blob/main/railties/lib/rails/gem_version.rb)
 * [`Gem::Version`](https://ruby-doc.org/stdlib-2.5.0/libdoc/rubygems/rdoc/Gem/Version.html)
 
+**argements**
+
+* `options[:database]`
+
 
 **Ref**
 
