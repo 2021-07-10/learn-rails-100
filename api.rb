@@ -3,9 +3,9 @@ def source_paths
   [File.expand_path('../templates', __FILE__)]
 end
 
-gem 'jbuilder', '~> 2.11'
-gem 'oj', '~> 3.13'
-gem 'rack-cors', '~> 1.1'
+gem 'jbuilder', '~> 2.11', '>= 2.11.3'
+gem 'oj', '~> 3.13', '>= 3.13.9'
+gem 'rack-cors', '~> 1.1', '>= 1.1.1'
 
 run_bundle
 
