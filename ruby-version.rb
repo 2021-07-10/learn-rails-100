@@ -1,7 +1,4 @@
-gsub_file 'Gemfile', /ruby\s+".*/, 'ruby "~> 2.7.0"'
+gsub_file 'Gemfile', /ruby\s+'(\d.\d.\d)'/, "ruby '~> \\1'"
 
 git add: "."
 git commit: %Q<-m 'Change Ruby Version'>
-
-
-# sed -i -r 's/ruby\s+".*/ruby "~> 2.7.0"/' Gemfile

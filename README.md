@@ -1,7 +1,15 @@
 # learn-rails-100
 
-> [1.2 Ruby Versions](https://guides.rubyonrails.org/upgrading_ruby_on_rails.html#ruby-versions)
 
+## Ruby Versions
+
+* [1.2 Ruby Versions - Upgrading Ruby on Rails](https://guides.rubyonrails.org/upgrading_ruby_on_rails.html#ruby-versionss)
+* [Ruby on Rails 5.2 Release Notes](https://github.com/rails/rails/blob/f84eecec7127cff916c89a20b0eb5678fefc572c/guides/source/5_2_release_notes.md#notable-changes)
+* [`ruby-version.tt`](https://github.com/rails/rails/blob/main/railties/lib/rails/generators/rails/app/templates/ruby-version.tt)、[**Choosing the Ruby Version - Rbenv**](https://github.com/rbenv/rbenv#choosing-the-ruby-version)
+* [`Gemfile.tt`](https://github.com/rails/rails/blob/main/railties/lib/rails/generators/rails/app/templates/Gemfile.tt)、[**Specifying a Ruby Version - Bundler**](https://bundler.io/gemfile_ruby.html#specifying-a-ruby-version)
+
+
+## Initialize
 
 ```bash
 docker run -it --rm -v ~/Documents:/usr/src/app ruby:2.7 bash
@@ -18,11 +26,12 @@ git config --global push.default simple
 ```bash
 gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
 bundle config mirror.https://rubygems.org https://gems.ruby-china.com
+gem install rails -v 5.2.7 -N -V
 ```
 
 
 ```bash
-gem install rails -v 5.2.7 -N -V
+export RBENV_VERSION=2.7.6
 rails new snake_api -T -d mysql --api
 ```
 
