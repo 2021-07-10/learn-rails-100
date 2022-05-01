@@ -19,9 +19,9 @@ create_file '.env.template'
 
 append_to_file '.env.template' do
   <<-EOS.strip_heredoc
-    #{app_name.upcase}_DATABASE_HOST=db
+    #{app_name.upcase}_DATABASE_HOST=127.0.0.1
     #{app_name.upcase}_DATABASE_USERNAME=root
-    #{app_name.upcase}_DATABASE_PASSWORD=example
+    #{app_name.upcase}_DATABASE_PASSWORD=
   EOS
 end
 
