@@ -90,3 +90,6 @@ bundle binstubs bundler
 *  [Rails 101 （ Rails 5 版）](https://courses.growthschool.com/p/rails-101)、[Rails 101 ( Rails 4 版）](https://courses.growthschool.com/p/rails-101-4-0)、[Rails 101](https://leanpub.com/rails-101)
 *  [rails-102](https://github.com/rocodev/rails-102)
 *  [為你自己學 Ruby on Rails](https://railsbook.tw/)
+*  [Reliably Deploying Rails Applications](https://leanpub.com/deploying_rails_applications)
+* [Ruby on Rails 教程（原书第 6 版）](https://flapybooks.com/products/railstutorial6th/)
+* [Efficient Rails DevOps](https://efficientrailsdevops.com/)
