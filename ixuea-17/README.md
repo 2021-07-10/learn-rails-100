@@ -12,6 +12,19 @@
 * [第5节 学习遇到问题了，如何解决？](./01-05/)
 * [第6节 源码和资源使用介绍](./01-06/)
 
+### 第2章 Ubuntu系统安装
+
+* [第1节 开发环境概述](./02-01/)
+* [第2节 如何下载Ubuntu系统](./02-02/)
+* [第3节 Windows安装VMware Workstation虚拟机](./02-03/)
+* [第4节 VMware Workstation进入Ubuntu安装界面](./02-04/)
+* [第5节 Ubuntu系统安装过程](./02-05/)
+* [第6节 Parallels Desktop进入Ubuntu安装界面](./02-06/)
+* [第7节 压缩出空闲硬盘空间](./02-07/)
+* [第8节 创建Ubuntu安装U盘](./02-08/)
+* [第9节 如何实体机安装Ubuntu](./02-09/)
+
+
 ## Ref
 
 * [http://www.ixuea.com/books/17](http://www.ixuea.com/books/17)
