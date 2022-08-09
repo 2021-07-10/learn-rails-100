@@ -4,6 +4,7 @@
 * [02 Running a Rails App in a Container](./02)
 * [03 Fine-Tuning Our Rails Image](./03)
 * [04 Describing Our App Declaratively with Docker Compose](./04)
+* [05 Beyond the App: Adding Redis](./05)
 
 
 ## Ref
