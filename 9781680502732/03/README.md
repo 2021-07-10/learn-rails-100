@@ -2,7 +2,7 @@
 
 |本期版本|上期版本
 |:---:|:---:
-`Tue Aug  9 11:11:32 CST 2022` |
+`Fri Aug 26 10:52:00 CST 2022` |
 
 
 ## A Default Command
@@ -17,6 +17,22 @@ CMD ["bin/rails", "s", "-b", "0.0.0.0"]
 
 > `.dockerignore`
 
+```bash
+#Git
+.git
+.gitignore
+
+# Logs
+log/*
+
+# Temp files
+tmp/*
+
+# Editor temp files
+*.swp
+*.swo
+```
+
 ## The Image Build Cache
 
 ```bash
@@ -30,4 +46,6 @@ apt-get update -yqq && apt-get install -yqq --no-install-recommends \
 COPY Gemfile* /usr/src/app/
 WORKDIR /usr/src/app
 RUN bundle install
+
+COPY . /usr/src/app
 ```

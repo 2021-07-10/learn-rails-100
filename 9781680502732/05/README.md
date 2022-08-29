@@ -9,3 +9,5 @@
 ```bash
 docker network ls
 ```
+
+* Compose uses the service name (as defined in our docker-compose.yml) as the DNS entry
