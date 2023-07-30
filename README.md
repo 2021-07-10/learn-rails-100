@@ -11,17 +11,6 @@
 
 ## Initialize
 
-```bash
-docker run -it --rm -v ~/Documents:/usr/src/app ruby:2.7 bash
-cd /usr/src/app
-```
-
-```
-git config --global user.name "guxiaobai"
-git config --global user.email "sikuan.gu@gmail.com"
-git config --global init.defaultBranch main
-git config --global push.default simple
-```
 
 ```bash
 gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
@@ -70,10 +59,6 @@ bundle binstubs bundler
 * `options[:database]`
 
 
-**Ref**
-
-* [Rails Application Templates — Ruby on Rails Guides](https://guides.rubyonrails.org/rails_application_templates.html)
-* [Thor](http://whatisthor.com/)、[Actions](http://www.rubydoc.info/github/wycats/thor/Thor/Actions)
 
 ## Ref
 
